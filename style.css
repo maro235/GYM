@@ -1,0 +1,135 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    color: white;
+}
+body{
+    background-color: #222;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.crud{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin:  auto;
+}
+.head{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px ;
+}
+.head h3{
+    color: whitesmoke;   
+    margin-top: 8px ;
+    text-transform: uppercase;
+    margin-bottom: 50px ;
+}
+input{
+    background-color: #211;
+    border: none;
+    padding: 4px ;
+}
+button{
+    background-color: #390053;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 108%;
+    height: 30px;
+    border-radius: 20px ;
+    font-size: 13px ;
+    cursor: pointer;
+    margin-bottom: 15px ;
+}
+button:hover{
+    background-color:#51025f;
+    letter-spacing: 2px ;
+    transition: 0.5s;
+}
+input:focus{
+    border-color: gray;
+    background-color: black;
+    transition: 1s;
+}
+.inp #title{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px ;
+    font-size: 15px ;
+    margin-bottom: 20px ;
+}
+.inp2 input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 20px ;
+    font-size: 13px ;
+    margin-bottom: 20px ;
+}
+ #total{
+    width: 10%;
+    height: 30px;
+    border-radius: 20px ;
+    background-color: red;
+    padding: 7px ;
+}
+#total::before{
+    content: "total";
+}
+.inp3 input{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px ;
+    font-size: 13px ;
+    margin-bottom: 15px ;
+}
+.inp3 #submit{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px ;
+    font-size: 13px ;
+    cursor: pointer;
+    margin-bottom: 15px ;
+}
+
+#search{
+    width: 50%;
+}
+.searchblock #searchbytitel{
+    width: 30%;
+    height: 30px;
+    margin-left:0;
+    border-radius: 20px ;
+    font-size: 13px ;
+    cursor: pointer;
+    margin-bottom: 15px ;
+}
+.searchblock #searchbycategory{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px ;
+    font-size: 13px ;
+    cursor: pointer;
+    margin-bottom: 15px ;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px ;
+    padding: 3px ;
+}
+table th {
+    text-transform: uppercase;
+    padding: 10px ;
+}
+table th td {
+    padding:100px ;
+}
+table th td button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px ;
+    
+}

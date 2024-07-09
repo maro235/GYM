@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k/Amr Amer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="crud">
+        <div class="head">
+            <h1>Sports Academy</h1>
+            <h3>K/ Amr Amer</h3>
+        </div>
+
+        <div class="inp">
+            <input type="text" id="title" placeholder="name">
+        </div>
+        <div class="inp2">
+            <input  type="number" placeholder="  price" id="price"> <br>
+            <input  type="number" placeholder="  month" id="taxes"> <br>
+            <input  type="number" placeholder="first_day" id="ads"> <br>
+            <input  type="number" placeholder="last_day" id="discount"> <br>
+
+        </div>
+        <div class="inp3">
+
+
+            <button id="submit">Create</button><br>
+            <input onkeyup="searchData(this.value)" type="search" id="search" placeholder="  search">            
+
+            <div class="output">
+                <div class="searchblock">
+                    <button onclick="getSearchMood(this.id)" id="searchbytitle">Search By Name</button>
+                   <br>
+                    <!-- <button onclick="getSearchMood(this.id)" id="searchbycategory">search by category</button> -->
+                </div>
+            </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>price</th>
+            <th>month</th>
+            <th>first_day</th>
+            <th>last_day</th>
+
+        </tr>
+        
+
+            <tbody id="tbody">
+                                                
+    </tbody>
+
+        </table>
+    </table>
+
+    </div>
+    <script src="main.js"></script>
+
+
+    </div>
+</body>
+</html>
